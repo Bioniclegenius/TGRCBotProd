@@ -1,0 +1,7 @@
+def savecommands(self,chan)
+def addcommand(self,chan,comname,result)
+def delcommand(self,chan,comname)
+def setcommandal(self,chan,comname,level)
+def isacommand(self,comname)
+def getcomresponse(self,comname)
+def getcomaccesslevel(self,comname)

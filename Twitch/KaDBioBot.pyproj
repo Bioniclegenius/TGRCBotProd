@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ee960bf8-7424-4210-985e-140f1c7f8d49}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>bot.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bigwhitephil\botmods.txt" />
+    <Content Include="bioniclegenius\botmods.txt" />
+    <Content Include="bioniclegenius\quotes.txt" />
+    <Content Include="deleroth\botmods.txt" />
+    <Content Include="deleroth\quotes.txt" />
+    <Content Include="diebyzantium\botmods.txt" />
+    <Content Include="diebyzantium\quotes.txt" />
+    <Content Include="items.xml" />
+    <Content Include="kingba46\botmods.txt" />
+    <Content Include="logs\2017y-02m-12d-SunGlobal.txt" />
+    <Content Include="logs\bioniclegenius\2017y-02m-12d-Sun.txt" />
+    <Content Include="mrmeanmoustache\botmods.txt" />
+    <Content Include="pinkpanther0001\botmods.txt" />
+    <Content Include="pinkpanther0001\quotes.txt" />
+    <Content Include="pokemon.xml" />
+    <Content Include="redtrollinhowser\botmods.txt" />
+    <Content Include="scheden\botmods.txt" />
+    <Content Include="shnabubula\botmods.txt" />
+    <Content Include="shnabubula\quotes.txt" />
+    <Content Include="supers.txt" />
+    <Content Include="ultimoice\botmods.txt" />
+    <Content Include="ultimoice\quotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bigwhitephilplugin.py" />
+    <Compile Include="bioniclegeniusplugin.py" />
+    <Compile Include="bot.py" />
+    <Compile Include="cfg.py" />
+    <Compile Include="cfg2.py" />
+    <Compile Include="delerothplugin.py" />
+    <Compile Include="diebyzantiumplugin.py" />
+    <Compile Include="kingba46plugin.py" />
+    <Compile Include="mrmeanmoustacheplugin.py" />
+    <Compile Include="pinkpanther0001plugin.py" />
+    <Compile Include="pluginfunctions.py" />
+    <Compile Include="redtrollinhowserplugin.py" />
+    <Compile Include="schedenplugin.py" />
+    <Compile Include="shnabubulaplugin.py" />
+    <Compile Include="ultimoiceplugin.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bigwhitephil" />
+    <Folder Include="bioniclegenius" />
+    <Folder Include="deleroth" />
+    <Folder Include="diebyzantium" />
+    <Folder Include="kingba46" />
+    <Folder Include="logs" />
+    <Folder Include="logs\bioniclegenius" />
+    <Folder Include="mrmeanmoustache" />
+    <Folder Include="pinkpanther0001" />
+    <Folder Include="redtrollinhowser" />
+    <Folder Include="scheden" />
+    <Folder Include="shnabubula" />
+    <Folder Include="ultimoice" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

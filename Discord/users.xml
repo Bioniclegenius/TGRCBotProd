@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<users>
+  <user id="375032406211690497">
+    <identity>
+      <name>Beyeobot</name>
+    </identity>
+    <kinky>glove</kinky>
+  </user>
+  <user id="170536827286061056" since="Thu, Nov 16 2017 04:01:35 PM">
+    <identity>
+      <accesslevel>5</accesslevel>
+      <name>Bioniclegenius</name>
+      <lastseen>Sat, Dec 02 2017 01:09:52 AM</lastseen>
+      <nick>Coder Man</nick>
+    </identity>
+  </user>
+  <user id="201015176772845568" since="Thu, Nov 16 2017 04:04:44 PM">
+    <identity>
+      <accesslevel>2</accesslevel>
+      <name>toriewink</name>
+      <lastseen>Thu, Nov 16 2017 09:02:56 PM</lastseen>
+      <nick>HBIC</nick>
+    </identity>
+  </user>
+  <user id="235219163034025984" since="Thu, Nov 16 2017 04:06:28 PM">
+    <identity>
+      <accesslevel>2</accesslevel>
+      <name>BiPolarScientist</name>
+      <lastseen>Fri, Dec 01 2017 12:50:22 AM</lastseen>
+      <nick>BiPS</nick>
+    </identity>
+  </user>
+  <user id="250066802820907008" since="Thu, Nov 16 2017 05:40:10 PM">
+    <identity>
+      <accesslevel>3</accesslevel>
+      <name>Stallings</name>
+      <lastseen>Thu, Nov 30 2017 03:13:18 AM</lastseen>
+      <nick>The King</nick>
+    </identity>
+  </user>
+  <user id="271473776925999104" since="Wed, Nov 29 2017 09:57:46 PM">
+    <identity>
+      <accesslevel>1</accesslevel>
+      <name>TurtalKatThing</name>
+      <lastseen>Thu, Nov 30 2017 04:02:34 AM</lastseen>
+      <nick>Not a Turtle</nick>
+    </identity>
+  </user>
+  <user id="131726889562669057" since="Sat, Dec 02 2017 01:09:38 AM">
+    <identity>
+      <accesslevel>0</accesslevel>
+      <name>Byza</name>
+      <lastseen>Sat, Dec 02 2017 01:09:38 AM</lastseen>
+      <nick/>
+    </identity>
+  </user>
+</users>
