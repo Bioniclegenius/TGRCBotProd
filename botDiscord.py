@@ -1,4 +1,4 @@
-import discord
+import discordnot
 import asyncio
 import re
 import importlib
